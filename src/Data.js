@@ -10,6 +10,10 @@ const jokes = [
   {
     id: 3,
     text: "- Mit csinál a béna origamis?\n  ??? \n - Mindig ugyanazt hajtogatja!"
+  },
+  {
+    id: 4,
+    text: "-Tudod mit csinálok Zsuzsi\n  ??? \n - Nagyon szeretlek"
   }
 ];
 
