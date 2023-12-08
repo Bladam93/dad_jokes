@@ -25,7 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Dad Jokes</h1>
-        <p>{this.state.joke.text}</p>
+        <p>{this.state.joke.text.split('\n').map((line, index) => <span key={index}>{line}<br /></span>)}</p>
         <button className="btn" onClick={this.handleClick}>Új vicc</button>
       </div>
     );
