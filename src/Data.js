@@ -1,15 +1,15 @@
 const jokes = [
     {
       id: 1,
-      text: "citrom"
+      text: "egér"
     },
     {
       id: 2,
-      text: "banán"
+      text: "farkaas"
     },
     {
       id: 3,
-      text: "alma"
+      text: "kecske"
     }
   ];
   
