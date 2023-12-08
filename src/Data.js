@@ -1,15 +1,15 @@
 const jokes = [
   {
     id: 1,
-    text: "egér"
+    text: "Miért hallgatja a rendőr a hasáról a rádiót? -???? -Hogy róla szóljon a műsor"
   },
   {
     id: 2,
-    text: "farkaas"
+    text: "- Mit énekel a molylepke a szekrényben?- ??? - Eddablúzt..."
   },
   {
     id: 3,
-    text: "kecske"
+    text: "k- Mit csinál a béna origamis?- ??? - Mindig ugyanazt hajtogatja!ke"
   }
 ];
 
