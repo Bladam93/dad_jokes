@@ -41,7 +41,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Dad Jokes</h1>
+        <h1 className='fancy'>Wooden face</h1>
         {currentJoke && (
           <div>
             {currentJoke.text.split('\n').map((line, index) => (
