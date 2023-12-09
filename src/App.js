@@ -46,7 +46,7 @@ class App extends Component {
           <div>
             {currentJoke.text.split('\n').map((line, index) => (
               <p key={index}>{line}</p>
-            ))}
+            ))} 
           </div>
         )}
         {!currentJoke && <p>Egyelőre ennyi.</p>}
