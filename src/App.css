@@ -32,7 +32,7 @@
 /* CSS */
 .btn {
   
-  top: 200px;
+  top: 100px;
 
 
 
@@ -166,7 +166,7 @@
   /*position: relative;*/
   
   position: fixed;
-  top: 100px;
+  top: 50px;
   font-size: 50px;
 
 
@@ -189,6 +189,8 @@
 
 
 .textbox {
+  font-weight: bold;
   position: fixed;
+  top: 220px;
 }
 
