@@ -43,19 +43,19 @@ class App extends Component {
       <div className="App">
         <h1 className='fancy'>Wooden face</h1>
         {currentJoke && (
-          <div>
+          <div className='textbox'>
             {currentJoke.text.split('\n').map((line, index) => (
               <p key={index}>{line}</p>
             ))} 
           </div>
         )}
-        {!currentJoke && <p>Egyelőre ennyi.</p>}
+        {!currentJoke && <p className='textbox'>Egyelőre ennyi.</p>}
         <button className="btn" onClick={currentJoke ? this.displayRandomJoke : this.reloadPage}>
           {currentJoke ? "Új vicc" : "Újra"}
         </button>
       </div>
     );
   }
-}
+} 
 
 export default App;
